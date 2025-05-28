@@ -6,7 +6,7 @@ export async function POST(req: Request) {
       const body = await req.json();
       console.log("Received request:", body); // Log the request body
   
-      const response = await fetch("https://sangam.xendrax.in/webhook/978347ae-f445-4afc-904f-007dbe630fb7", {
+      const response = await fetch("https://sangam.xendrax.in/webhook/b7d1b709-ac08-4a54-9450-7f02020ec6fd", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
